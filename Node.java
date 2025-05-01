@@ -1,9 +1,9 @@
 public class Node {
-    private String key;
-    private String value;
+    String key;
+    String value;
 
-    public Node(String key, String value) {
-        this.key = key;
-        this.value = value;
-    }
+    public Node(String Key, String Value) {
+        key = Key;
+        value = Value;
+    }  
 }
