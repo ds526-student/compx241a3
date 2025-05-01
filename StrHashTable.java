@@ -83,9 +83,9 @@ public class StrHashTable {
     }
 
     public void dump() {
-        for (Node hashTable1 : hashTable) {
-            if (hashTable1 != null) {
-                System.out.println(hashTable1.key + " : " + hashTable1.value);
+        for (Node node : hashTable) {
+            if (node != null) {
+                System.out.println(node.key + " : " + node.value);
             } else {
                 System.out.println("null");
             }

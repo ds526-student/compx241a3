@@ -1,10 +1,8 @@
-
-public class program {
-
+public class programCollisions {
     public static void main(String[] args) {
-        StrHashTable ht = new StrHashTable(5);
+        StrHashTableCollisions ht = new StrHashTableCollisions(10);
         ht.insert("key1", "value1");
-        ht.insert("key2", "value2");
+        ht.insert("key1", "value2");
         ht.insert("key3", "value3");
         ht.insert("key4", "value4");
         ht.insert("key5", "value5");
